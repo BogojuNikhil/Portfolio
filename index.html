@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/e674bba739.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="nikhil logo 3.png" class="logo"></img>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Portfolio</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <i class="fas fa-times"></i>
+                </ul>
+                <i class="fas fa-bars"></i>
+            </nav>
+            <div class="header-text">
+                <p>Designer and Developer</p>
+                <h1>Hi, I'm <span>Nikhil</span><br>Bogoju,Student from NIT Rourkela</h1>
+            </div>
+        </div>
+    </div>
+    <!-- ----------ABOUT---------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="user 1.jpeg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>I am a Student of NIT Rourkela Pursuing Btech in Metallurgy and Materials Department.I had explored through different fields and participated in different events held by college and apart from college. I had explored UI/UX design ,Graphic design and doing projects on web dev currently. </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="openTab('skills')">Skills</p>
+                        <p class="tab-links" onclick="openTab('experience')">Experience</p>
+                        <p class="tab-links" onclick="openTab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI/UX</span><br>Designing Web/App interfaces</li>
+                            <li><span>Web Development</span><br>Web app Development</li>
+                            <li><span>Competitive Coding</span><br>Data Structures and Algorithms</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2022-2023</span><br>President of 3D Club,Team Heads of Steellun Design team,SDG Management team</li>
+                            <li><span>2022</span><br>Volunteer in Vriddhi and Innovision Fest</li>
+                            <li><span>2021</span><br>Volunteer in Vriddhi esport fest.</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2021</span><br>Joined National Institute of Technology,Rourkela</li>
+                            <li><span>2021</span><br>Completed Intermediate Education from Shine Junior College</li>
+                            <li><span>2019</span><br>Completed Schooling from Warangal public School</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ----------SERVICES---------- -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-brands fa-android"></i>
+                    <h2>Graphic design</h2>
+                    <p>I have experience in design various contents for events such as merchandise,posters,banners,logos..etc</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Development</h2>
+                    <p>I have complete knowledge in frontend develpment and exploring through backend currently </p>
+                    <a href="https://github.com/BogojuNikhil">Learn more</a>
+
+                </div>
+                <div>
+
+                    <i class="fa-solid fa-crop-simple"></i>
+                    <h2>UI/UX Design</h2>
+                    <p>Through Exploring different fields UI/UX design had grabbed my attention and have created some amazing animations and UI for various projects </p>
+                    <a href="https://www.figma.com/file/Ct2x7id1LfZZFTv34ExiIV/uber-website-ui?type=design&node-id=0%3A1&mode=design&t=fFijXDbwGxQaz9x1-1">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ----------PORTFOLIO--------- -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Works</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="amazon.png" alt="">
+                    <div class="layer">
+                        <h2>Amazon Website Interface</h2>
+                        <p>Using Pure Html I have Developed Amazon Home Website page </p>
+                        <a href="https://bogojunikhil.github.io/Amazon-Website-clone/"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="weather .png" alt="">
+                    <div class="layer">
+                        <h2>Weather Forecast</h2>
+                        <p>Using Html,Css and JS,I have Developed a website to display weather for a particular location  </p>
+                        <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="uber.png" alt="">
+                    <div class="layer">
+                        <h2>Uber Homepage UI</h2>
+                        <p>Using Figma I had created uber website home page</p>
+                        <a href="https://www.figma.com/file/Ct2x7id1LfZZFTv34ExiIV/uber-website-ui?type=design&node-id=0%3A1&mode=design&t=fFijXDbwGxQaz9x1-1"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="https://www.linkedin.com/in/nikhilbogoju/" class="btn">See more </a>
+        </div>
+    </div>
+
+    <!-- ----------CONTACT---------- -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fas fa-paper-plane"></i> bogojunikhil@gmail.com</p>
+                    <p><i class="fas fa-phone-square-alt"></i> 8790219323</p>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/profile.php?id=100012935553636"><i class="fab fa-facebook"></i></a>
+                        <a href="https://www.instagram.com/_the_nikhil/"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/nikhilbogoju/"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                    <a href="" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form>
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn3">submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>copyright @Nikhilbogoju <br>
+                Made with   <i class="fas fa-heart">  </i> Nikhil</p>
+        </div>
+    </div>
+
+
+
+    <script>
+        var tabLinks = document.getElementsByClassName('tab-links');
+        var tabContents = document.getElementsByClassName('tab-contents');
+
+        function openTab(tabName) {
+            for (tabLink of tabLinks) {
+                tabLink.classList.remove('active-link');
+            }
+            for (tabContent of tabContents) {
+                tabContent.classList.remove('active-tab');
+            }
+            event.currentTarget.classList.add('active-link');
+            document.getElementById(tabName).classList.add('active-tab');
+        }
+
+        // JavaScript for handling the mobile navigation menu
+        document.querySelector('.fas.fa-bars').addEventListener('click', function () {
+            document.querySelector('nav ul').classList.toggle('show');
+        });
+
+        document.querySelector('.fas.fa-times').addEventListener('click', function () {
+            document.querySelector('nav ul').classList.remove('show');
+        });
+
+    </script>
+</body>
+
+</html>
